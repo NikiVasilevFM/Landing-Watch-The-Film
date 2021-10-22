@@ -116,6 +116,7 @@ main{
     padding-top: 21px;
     margin: 0;
     padding-left: 28px;
+    color: #FFFFFF;
 }
 
 .quote-text-autor {
@@ -632,5 +633,574 @@ main{
 
 #konec{
     margin-top: 150px;
+}
+
+@media (max-width: 1279px) and (min-width: 992px) {
+
+.wrapper{
+    padding-left: 48px;
+    padding-top: 22px;
+}
+    
+.logo-tab{
+    width: 64px;
+    height: 38px;
+} 
+
+header{
+    margin-left: 22px;
+}
+    
+main{
+    margin-top: 52px;
+    margin-left: 21px;
+}
+    
+.duration-flex{
+    display: flex;
+    /* background-color: blueviolet; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    line-height: 115%;
+    max-width: 282px;
+    justify-content: space-between;
+}
+        
+.img-duration{
+    width: 12.74px;
+    height: 12.74px;
+}
+    
+.p-duration{
+    margin-top: 2px;
+    margin-bottom: 0px;
+    margin-left: 4px;
+}
+    
+.p-duration-id{
+    margin-top: 2px;
+    margin-bottom: 0px;
+    margin-left: 8px;
+}
+    
+    /* ----------КАК СМОТРЕТЬ КИНО-------------------------- */
+    
+.course-cover{
+    margin-top: 14px;
+}
+    
+.course-cover-title{
+    font-size: 46px;
+    margin-top: 0px;
+}
+    
+.course-cover-text-param{    
+    font-size: 12px;
+    margin-top: 20px;
+}
+    
+.course-cover-img-param{
+    width: 176px;
+    height: 206px;
+    margin-right: 300px;
+    margin-top: -6px;
+}
+    
+.quote-block {
+    width: 280.11px;
+    height: 115.83px;
+    margin-top: 47px;
+    padding-left: 0px;
+    font-style: normal;
+    font-weight: normal;
+    right: 75px;
+    margin-left: 243px;
+}
+    
+.quote-text {
+    font-size: 14px;    
+    padding-top: 11px;    
+    padding-left: 15px;
+}
+    
+.quote-text-autor {
+    font-size: 12px;
+    margin-top: 3px;
+    padding-right: 9px;
+}
+    
+    /* ---------- О КУРСЕ --------------------------------------------- */
+    
+.about-the-course-title{
+    font-size: 32px;
+    margin-top: 100px;
+}
+    
+.about-the-course-block{
+    margin-top: 33px;
+}
+    
+.about-the-course-text-1{
+    font-size: 14px;
+    margin-right: 115px;
+}
+    
+.about-the-course-text-2{    
+    font-size: 14px;
+    margin-top: 21px;
+    margin-right: 110px;
+}
+    
+.about-the-course-image{
+    width: 181px;
+    height: 182px;
+    margin-top: 13px;
+    margin-right: 247px;
+}
+    
+.about-the-course-duration{
+    margin-top: 28px;
+}
+    
+.about-the-course-duration-img-box{
+    margin-right: 78px;
+}
+    
+.about-the-course-duration-img{
+    width: 134px;
+    height: 117px;
+}
+    
+.about-the-course-duration-boxes{
+    justify-content: space-between;
+    width: 45%;        
+}
+    
+.box {
+    margin-right: 0px;
+    width: 32%;
+}
+    
+.box-title {
+    font-size: 15px;
+}
+      
+.box-text {
+    font-size: 11px;
+    width: 89px;
+    padding-top: 6px;
+}
+    
+    /* --------- ФОРМАТ ЗАНЯТИЙ------------------------- */
+    
+    .format-title{
+        font-size: 55px;
+        font-family: Roboto Slab;
+        margin-top: 164px;
+    }
+    
+    .format-box{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-top: 125px;
+    }
+    
+    .format-list{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .format-h3-1{
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 130%;
+        margin: 2px;
+        margin-top: -7px;
+        color: #1E4681;
+    }
+    
+    .format-h3-2{
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 130%;
+        margin: 0;
+        margin-left: 125px;
+        margin-top: -8px;
+        color: #1E4681;
+    }
+    
+    .format-h3-3{
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 130%;
+        margin: 0;
+        margin-left: 113px;
+        margin-top: -7px;
+        color: #1E4681;
+    }
+    
+    .format-paragraf-1{
+        font-size: 18px;
+        font-family: Roboto;
+        width: 223px;
+        height: 39px;
+        margin-top: 5px;
+        margin-left: 2px;
+        line-height: 130%;
+    }
+    
+    .format-paragraf-2{
+        font-size: 18px;
+        font-family: Roboto;
+        width: 271px;
+        height: 109px;
+        margin-left: 125px;
+        margin-top: 10px;
+        line-height: 130%;
+    }
+    
+    .format-paragraf-3{
+        font-size: 18px;
+        font-family: Roboto;
+        width: 245px;
+        height: 39px;
+        margin-left: 113px;
+        margin-top: 9px;
+    }
+    
+    /* -------------------ЧТО УЗНАЕМ--------------------- */
+    
+    .course-content-box{
+        margin-top: 160px;
+    }
+    
+    .course-content-title{
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 55px;
+        line-height: 101.38%;
+    }
+    
+    .course-content-ul{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 150%;
+        max-width: 650px;
+        padding-left: 23px;
+        margin-top: 60px;
+    }
+    
+    .course-content-li{
+        padding-left: 0px;
+        line-height: 150%;
+    }
+    
+    /* --------------------ПРОГРАММА КУРСА------------------- */
+    
+    .course-programm-title{
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 55px;
+        line-height: 101.38%;
+        margin-top: 223px;
+        margin-left: 37px;
+    }
+    
+    .course-programm-box{
+        margin-top: 134px;
+    }
+    
+    .course-programm-upper{
+        display: flex;
+    }
+    
+    .article-nikita {
+        width: 399px;
+        height: 328px;
+        border-radius: 30px;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+        margin-right: 37px;
+    }
+    
+    .img-size-nik {
+        width: 399px;
+        height: 160px;
+    }
+    
+    .title-menu-nik {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 130%;
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+    
+    .paragraph-menu-nik{
+        font-family: 'Roboto', sans-serif;
+        font-style: normal; 
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 130%;
+        margin-left: 19px;
+        margin-top: 32px;
+    }
+    
+    .course-programm-midl{
+        display: flex;
+        margin-top: 41px;
+    }
+    
+    .course-programm-low{
+        display: flex;
+        margin-top: 44px;
+    }
+    
+    #last-h3 {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        margin-left: 20px;
+        margin-bottom: 0px; 
+        margin-top: 10px;
+        padding: auto;
+        line-height: 97%;
+    }
+    
+    #last-paragraph-menu-nik {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 25px;
+        height: 65px;
+        margin-left: 19px;
+        margin-top: 10px;
+        line-height: 130%;
+      
+    }
+    
+    /* ----------------------КУРС ПРОШЛО--------------------------- */
+    
+    .wrapper-footer{
+        max-width: 1440px;
+        height: 100%;
+        margin: auto;
+        padding-left: 84px;
+        padding-bottom: 113px;
+        padding-top: 20px;
+        box-sizing: border-box;
+        background: #EFEFEF;
+    }
+    
+    .main{
+        margin-left: 35px;
+    }
+    
+    .result-title{
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 55px;
+        line-height: 101.38%;
+        margin-left: 37px;
+        margin-top: 73px;
+    }
+    
+    .result-box{
+        max-height: 450px;
+        margin-top: 70px;
+        max-width: 791px;
+        margin-left: 42px;
+        background: #FFFFFF;
+        box-shadow: 1px 1px 20px rgb(0 0 0 / 25%);
+        border-radius: 30px;
+    }
+    
+    .result-text{
+        padding-top: 40px;
+        padding-right: 35px;
+        padding-left: 44px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 150%;
+        color: #000000;
+    }
+    
+    .result-flex{
+        display: flex;
+        padding-bottom: 29px;
+    }
+    
+    .name-student{
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 101.38%;
+    }
+    
+    .avatar-img{
+        padding-left: 25px;
+        padding-top: 12px;
+    }
+    
+    .name-student-box{
+        margin-left: 30px;
+        margin-top: 23px;
+    }
+    
+    /* ----------------------------------------------------- */
+    
+    .wrapper-footer-2{
+        max-width: 1440px;
+        height: 100%;
+        margin: auto;
+        padding-left: 84px;
+        padding-top: 133px;
+        padding-bottom: 180px;
+        box-sizing: border-box;
+        background: #9DC9C8;
+    }
+    
+    .main{
+        margin-left: 35px;
+    }
+    
+    .data-title{
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 55px;
+        line-height: 101.38%;
+    }
+    
+    .price-box{
+        margin-top: 65px;
+    }
+    
+    .price-text{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 101.38%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    
+    .price{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 80px;
+        line-height: 101.38%;
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+    
+    .description-box{
+        display: flex;
+        margin-top: 50px;
+        justify-content: space-between;
+        max-width: 660px;
+    }
+    
+    .description-text{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 101.38%;
+        margin-bottom: 5px;
+    }
+    
+    .description-text-dop{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 101.38%;
+        margin-top: 18px;
+    }
+    
+    /* ------------------------------------------------------------ */
+    
+    .wrapper-footer-3{
+        max-width: 1440px;
+        height: 100%;
+        margin: auto;
+        padding-left: 84px;
+        padding-top: 21px;
+        padding-bottom: 40px;
+        box-sizing: border-box;
+        background: #000000;
+    }
+    
+    .footer-box{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 29px;
+        margin-left: 2px;
+        padding-right: 180px;
+    }
+    
+    .image-network-box{
+        display: flex;
+        justify-content: space-between;
+        min-width: 198px;
+        margin-top: 25px;
+    }
+    
+    .mobile{
+        display: flex;
+    }
+    
+    #number-img{
+        margin-left: 19px;
+    }
+    
+    #phone-img{
+        width: 27px;
+        height: 27px;
+        margin-top: -4px;
+    }
+    
+    #mail-img{
+        width: 27px;
+        height: 18px;
+        margin-top: 2px;
+    }
+    
+    .mail{
+        display: flex;
+        margin-top: 18px;
+    }
+    
+    #adres-img{
+        margin-left: 19px;
+    }
+    
+    .div-right{
+        margin-top: 10px;
+    }
+    
+    #konec{
+        margin-top: 150px;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 320px) {
+
 }
 
