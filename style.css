@@ -1784,15 +1784,15 @@ main{
     height: 100%;
     margin: auto;
         padding-left: 35px;
-    padding-bottom: 65px;
+        padding-bottom: 53px;
     padding-top: 20px;
     box-sizing: border-box;
     background: #EFEFEF;
 }
         
-    .main{
-            margin-left: 0px;
-    }
+.main{
+    margin-left: 0px;
+}
         
 .result-title{
     font-family: Roboto Slab;
@@ -1805,211 +1805,216 @@ main{
         width: 289px;
 }
         
-    .result-box{
-                max-height: 261px;
-                margin-top: 41px;
-                max-width: 458px;
-                margin-left: 2px;
-        background: #FFFFFF;
-        box-shadow: 1px 1px 20px rgb(0 0 0 / 25%);
-        border-radius: 30px;
-    }
+.result-box{
+                max-height: 248px;
+                margin-top: 27px;
+                max-width: 308px;
+                margin-left: 0px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 20px rgb(0 0 0 / 25%);
+                border-radius: 13px;
+}
         
-    .result-text{
-                padding-top: 24px;
-        padding-right: 35px;
-                padding-left: 26px;
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 12px;
-        line-height: 150%;
-        color: #000000;
-    }
+.result-text{
+        padding-top: 19px;
+        padding-right: 23px;
+        padding-left: 21px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+        font-size: 10px;
+    line-height: 150%;
+    color: #000000;
+}
         
-        .result-flex{
-            display: flex;
-            padding-bottom: 29px;
-        }
+.result-flex{
+    display: flex;
+    padding-bottom: 29px;
+}
         
-    .name-student{
-        font-family: Roboto Slab;
-        font-style: normal;
-        font-weight: bold;
-                font-size: 17px;
-        line-height: 101.38%;
-    }
+.name-student{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+                font-size: 14px;
+    line-height: 101.38%;
+}
     
-        .student-network-link{
-            width: 18.53px;
-            height: 17.95px;
-        }
+.student-network-link{
+        width: 15px;
+        height: 17px;
+        margin-top: 4px;
+}
         
-    .avatar-img{
-            padding-left: 15px;
-            padding-top: 4px;
-        width: 110px;
-        height: 97px;
-    }
+.avatar-img{
+        padding-left: 14px;
+        padding-top: 2px;
+        width: 94px;
+        height: 84px;
+}
         
-    .name-student-box{
-            margin-left: 18px;
-            margin-top: 9px;
-    }
+.name-student-box{
+            margin-left: 7px;
+            margin-top: 6px;
+}
         
         /* ----------------------------------------------------- */
         
-    .wrapper-footer-2{
-        max-width: 1440px;
-        height: 100%;
-        margin: auto;
-                padding-left: 71px;
-                padding-top: 78px;
-                padding-bottom: 108px;
-        box-sizing: border-box;
-        background: #9DC9C8;
-    }
+.wrapper-footer-2{
+    max-width: 1440px;
+    height: 100%;
+    margin: auto;
+                padding-left: 35px;
+                padding-top: 41px;
+                 padding-bottom: 50px;
+    box-sizing: border-box;
+    background: #9DC9C8;
+}
         
-    .main{
-            margin-left: 0px;
-    }
+.main{
+    margin-left: 0px;
+}
         
-    .data-title{
-        font-family: Roboto Slab;
-        font-style: normal;
-        font-weight: bold;
-                font-size: 32px;
-        line-height: 101.38%;
-    }
+.data-title{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+                font-size: 26px;
+    line-height: 101.38%;
+        max-width: 225px;
+}
         
     .price-box{
             margin-top: 36px;
     }
         
-    .price-text{
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
-                font-size: 14px;
-        line-height: 101.38%;
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
+.price-text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+                font-size: 12px;
+    line-height: 101.38%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
         
-    .price{
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
-                font-size: 46px;
-        line-height: 101.38%;
-        margin-top: 5px;
-        margin-bottom: 0px;
-    }
+.price{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+                font-size: 37px;
+    line-height: 101.38%;
+                margin-top: 0px;
+    margin-bottom: 0px;
+}
         
-    .description-box{
-        display: flex;
-            margin-top: 29px;
-        justify-content: space-between;
-            max-width: 372px;
-    }
+.description-box{
+    display: flex;
+            margin-top: 23px;
+    justify-content: space-between;
+            max-width: 331px;
+}
         
-    .description-text{
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
-            font-size: 14px;
-        line-height: 101.38%;
-        margin-bottom: 5px;
-    }
+.description-text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+            font-size: 12px;
+    line-height: 101.38%;
+    margin-bottom: 5px;
+}
         
-    .description-text-dop{
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
+.description-text-dop{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
                 font-size: 10px;
-        line-height: 101.38%;
-                margin-top: 10px;
-    }
+    line-height: 101.38%;
+                margin-top: 7px;
+                max-width: 157px;
+}
         
         /* ------------------------------------------------------------ */
         
-    .wrapper-footer-3{
-        max-width: 1440px;
-        height: 100%;
-        margin: auto;
-                padding-left: 71px;
-        padding-top: 21px;
-            padding-bottom: 21px;
-        box-sizing: border-box;
-        background: #000000;
-    }
+.wrapper-footer-3{
+    max-width: 1440px;
+    height: 100%;
+    margin: auto;
+        padding-left: 38px;
+    padding-top: 21px;
+        padding-bottom: 14px;
+    box-sizing: border-box;
+    background: #000000;
+}
         
-    .footer-box{
-        display: flex;
-        justify-content: space-between;
-            margin-top: 7px;
-        margin-left: 0px;
-        padding-right: 260px;
-    }
+.footer-box{
+    display: flex;
+    /* justify-content: space-between; */
+            flex-direction: column;
+            margin-top: 3px;
+    margin-left: 0px;
+    padding-right: 260px;
+}
     
-    .img-white-1{
-        width: 66px;
-        height: 39px;
-    }
+.img-white-1{
+        width: 53px;
+        height: 31px;
+}
     
-    .img-network-1{
-            width: 19px;
-            height: 19px;
-    }
+.img-network-1{
+            width: 15px;
+            height: 15px;
+            margin-right: 10px;
+}
         
-    .image-network-box{
-        display: flex;
-        justify-content: space-between;
-            min-width: 112px;
-            margin-top: 14px;
-    }
+.image-network-box{
+    display: flex;
+    justify-content: flex-start;
+            width: 91px;
+            margin-top: 11px;
+}
         
         .mobile{
             display: flex;
         }
         
-    #number-img{
-            width: 118px;
-            height: 16px;
-            margin-left: 14px;
-    }
+#number-img{
+            width: 98px;
+            height: 12px;
+    margin-left: 14px;
+}
         
-    #phone-img{
-                width: 15px;
-                height: 15px;
-            margin-top: -4px;
-    }
+#phone-img{
+        width: 12px;
+        height: 12px;
+    margin-top: -4px;
+}
         
-    #mail-img{
-            width: 15px;
-            height: 10px;
-        margin-top: 2px;
-    }
+#mail-img{
+            width: 12px;
+            height: 8px;
+    margin-top: 2px;
+}
         
-    .mail{
-        display: flex;
-            margin-top: 11px;
-    }
+.mail{
+    display: flex;
+            margin-top: 8px;
+}
         
-    #adres-img{
-            width: 133px;
-            height: 15px;
-        margin-left: 19px;
-    }
+#adres-img{
+        width: 113px;
+        height: 13px;
+        margin-left: 12px;
+}
         
-    .div-right{
-            margin-top: 5px;
-    }
+.div-right{
+            margin-top: 50px;
+}
         
-    #konec{
-            width: 111px;
-            height: 10px;
-            margin-top: 86px;
-    }
+#konec{
+        width: 110px;
+        height: 10px;
+        margin-top: 55px;
+}
 }
 
